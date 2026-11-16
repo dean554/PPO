@@ -5,7 +5,7 @@ import torch
 import torch.nn as nn
 from torchrl.envs.utils import step_mdp
 
-from snake_env import SnakeEnv
+from snake.snake_env import SnakeEnv
 
 # ---------- settings ----------
 CHECKPOINT = "snake_policy.pt"

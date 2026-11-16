@@ -23,7 +23,7 @@ from torchrl.envs import (Compose, DoubleToFloat, ObservationNorm, StepCounter,
 from torchrl.envs import Compose, StepCounter, TransformedEnv
 from torchrl.envs.utils import check_env_specs, ExplorationType, set_exploration_type
 from torchrl.modules import ProbabilisticActor, ValueOperator
-from snake_env import SnakeEnv
+from snake.snake_env import SnakeEnv
 
 from torchrl.objectives import ClipPPOLoss
 from torchrl.objectives.value import GAE
